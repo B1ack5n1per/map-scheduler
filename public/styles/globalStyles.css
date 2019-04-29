@@ -1,0 +1,17 @@
+:root {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --light: rgba(255, 255, 255, 1);
+  --medium: rgba(185, 185, 185, 1);
+  --midDark: rgba(227, 227, 227, 1);
+  --dark: rgba(28, 28, 28, 1);
+  --highlight: rgba(236, 33, 33, 1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}

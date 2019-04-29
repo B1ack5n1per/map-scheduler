@@ -1,0 +1,50 @@
+body {
+  background: var(--dark);
+}
+
+#container {
+  color: var(--light);
+  text-align: center;
+  width: 100%;
+  height: 50rem;
+}
+
+#container h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+#levels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+#levels li {
+  margin: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#levels li:hover {
+  color: var(--highlight) !important;
+}
+
+.active {
+  color: var(--medium) !important;
+}
+
+#imageContainer {
+  width: 100%;
+  height: calc(100% - 7rem);
+}
+
+#imageContainer img {
+  padding: 1rem;
+  width: auto;
+  height: 100%;
+  max-width: 1000px;
+  max-height: 734px;
+}
